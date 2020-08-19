@@ -1,0 +1,19 @@
+https://gitforwindows.org/
+https://github.com/
+
+
+git init
+git remote add originhttps://github.com/you4ranghe/kh-semi.git
+git status
+git add .
+git commit -m"message" : 메세지 남기는용더
+git push origin +master
+
+git pull origin master
+
+추가된 메세지 입니다
+
+----------------------------------------
+git branch
+git branch jueun_semi
+git checkout 해당브랜치네임
