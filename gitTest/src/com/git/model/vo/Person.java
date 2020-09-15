@@ -5,8 +5,8 @@ public class Person {
 	private String name;
 	private int age;
 	private String address;
-	private String[] hobby;
-	private String phone;
+	private String email;
+	private boolean married;
 	
 	public Person() {
 		// TODO Auto-generated constructor stub
@@ -42,15 +42,24 @@ public class Person {
 		this.address = address;
 	}
 
-	public String[] getHobby() {
-		return hobby;
-	}
-
-	public void setHobby(String[] hobby) {
-		this.hobby = hobby;
-	}
-
 	
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public boolean isMarried() {
+		return married;
+	}
+
+	public void setMarried(boolean married) {
+		this.married = married;
+	}
+
 	public String getPhone() {
 		return phone;
 	}
