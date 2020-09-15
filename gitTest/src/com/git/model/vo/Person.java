@@ -4,19 +4,19 @@ public class Person {
 
 	private String name;
 	private int age;
+
 	private String address;
 	private String email;
 	private boolean married;
-	
+
+	private double height;
+	private double weight;
+
 	public Person() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Person(String name, int age) {
-		super();
-		this.name = name;
-		this.age = age;
-	}
+
 
 	public String getName() {
 		return name;
@@ -42,6 +42,7 @@ public class Person {
 		this.address = address;
 	}
 
+
 	
 	
 	public String getEmail() {
@@ -60,13 +61,32 @@ public class Person {
 		this.married = married;
 	}
 
-	public String getPhone() {
-		return phone;
+
+
+	public double getHeight() {
+		return height;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+
+
+	public void setHeight(double height) {
+		this.height = height;
 	}
+
+
+
+	public double getWeight() {
+		return weight;
+
+	}
+
+
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+
 
 
 	
